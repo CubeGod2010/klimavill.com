@@ -9,14 +9,25 @@ body {
     height: 140px;
 }
 
-div {
+.klimavill {
     text-align: justify;
     font-size: 14.2vw;
     font-family: Verdana, sans-serif;
   }
   
-  div:after {
+div:after {
     content: "";
     display: inline-block;
     width: 100%;
   }
+
+ul {
+  padding: 5px;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+}
+
+li {
+  margin-top: 15px;
+}
