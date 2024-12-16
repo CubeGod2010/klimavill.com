@@ -31,3 +31,17 @@ ul {
 li {
   margin-top: 15px;
 }
+
+.emailPeter {
+    font-family: Verdana, sans-serif;
+    color: white;
+    display: inline-block;
+}
+
+.emailKrisztian {
+    font-family: Verdana, sans-serif;
+    color: white;
+    text-align: right;
+    display: inline-block;
+    color: black;
+}
