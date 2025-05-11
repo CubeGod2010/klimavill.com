@@ -32,15 +32,49 @@ li {
   margin-top: 15px;
 }
 
-.emailPeter {
-    font-family: Verdana, sans-serif;
-    color: white;
-    display: inline-block;
+.emails {
+  margin: 1rem;
 }
 
-.emailKrisztian {
-    font-family: Verdana, sans-serif;
-    color: white;
-    display: inline-block;
-    color: black;
+.emailDivs {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Verdana, sans-serif;
+}
+
+.buttons {
+  background-color: #130f26;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Button hover effect*/
+
+.hover-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline::after , .hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #109ada, #fdca01);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after , .hover-underline:hover::before {
+  transform: scaleX(1);
 }
