@@ -1,4 +1,8 @@
 body {
+    background-color: #130f26;
+}
+
+.logoBody {
     background-image: linear-gradient(to right, #130f26 0%, #130f26 50%, white 50%, white 100%);
     color: white;
 }
