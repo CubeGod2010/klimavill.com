@@ -61,7 +61,7 @@ li {
   content: '';
   position: absolute;
   width: 100%;
-  height: 10px;
+  height: 5px;
   background: linear-gradient(to right, #109ada, #fdca01);
   bottom: -5px;
   left: 0;
