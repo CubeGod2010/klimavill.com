@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to right, #130f26 0%, #130f26 50%, white 50%, white 100%);
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 140px;
+}
+
+.klimavill {
+    text-align: justify;
+    font-size: 14.2vw;
+    font-family: Verdana, sans-serif;
+  }
+  
+div:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+ul {
+  padding: 5px;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+}
+
+li {
+  margin-top: 15px;
+}
+
+.emails {
+  margin: 1rem;
+}
+
+.emailDivs {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Verdana, sans-serif;
+}
+
+.buttons {
+  background-color: #130f26;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Button hover effect*/
+
+.hover-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline::after , .hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, #109ada, #fdca01);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after , .hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+/*Links*/
+
+a:link {
+  color: #e7f074
+}
+
+a:visited {
+  color: #e7f074
+}
