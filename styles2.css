@@ -2,3 +2,13 @@ body {
     background-color: #130f26;
     color: white;
 }
+
+/* Links */ 
+
+a:link {
+    color: #e7f074
+}
+
+a:visited {
+    color: #e7f074
+}
