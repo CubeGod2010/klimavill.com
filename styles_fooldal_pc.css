@@ -1,5 +1,9 @@
-Body {
+body {
     background-image: linear-gradient(to right, #130f26 0%, #130f26 50%, white 50%, white 100%);
+}
+
+#footer_list {
+  background-color: #130f26;
 }
 
 .logo {
@@ -87,4 +91,8 @@ a:link {
 
 a:visited {
   color: #e7f074
+}
+
+.verticalCenter {
+  top: 50%;
 }
